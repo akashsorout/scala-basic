@@ -8,7 +8,7 @@ class Person(val fName: String, val lName: String, val year: Int, age: Int = 0) 
 
   def unary_+ : Person = new Person(fName, lName, year, age + 1)
 
-  def apply(): String = s"$fullName ----- $age"
+  def apply(): String = s"$fullName --><-- $age"
 
   def fullName: String = fName + lName
 
