@@ -1,5 +1,7 @@
 package playground
 
+import cats.data.EitherT
+
 object EitherOption extends App {
 
   case class User(id: Int, name: String)

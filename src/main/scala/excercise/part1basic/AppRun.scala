@@ -9,7 +9,7 @@ object AppRun extends App {
 
   val book = new Book("Rich Dad Poor Dad", 2000, person)
 
-  println(book authorAge)
+//  println(book authorAge)
   println(book.isWrittenBy)
   val newPerson = +person
 

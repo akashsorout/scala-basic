@@ -1,6 +1,7 @@
 package playground
 
 import scala.io.StdIn._
+import scala.language.postfixOps
 
 object Main extends App {
 

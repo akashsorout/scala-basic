@@ -3,3 +3,5 @@
 .idea
 scala-basic.iml
 out
+target
+sbt.json
